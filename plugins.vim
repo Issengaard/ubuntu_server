@@ -7,7 +7,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'edkolev/tmuxline.vim'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install','do': 'yarn build'}
+Plug 'neoclide/jsonc.vim'
 Plug 'honza/vim-snippets'
 Plug 'Yggdroot/indentLine'
 Plug 'SirVer/ultisnips'

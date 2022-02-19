@@ -119,6 +119,8 @@ let g:airline_section_a = airline#section#create(['mode', 'crypt', 'paste', 'spe
 let g:indentLine_char = '┊'
 let g:indentLine_fileType = ['yaml', 'yml', 'yaml.helm']
 
+let g:LanguageClient_serverCommands = {'sql': ['sql-language-server', 'up', '--method', 'stdio']}
+
 autocmd BufNewFile,BufRead *.py set colorcolumn=80
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
