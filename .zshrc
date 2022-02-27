@@ -79,8 +79,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
 #	kubctl
-#	goland
+	golang
 	docker
+	docker-compose
 #	zsh-autocomplete
 	zsh-syntax-highlighting
 	zsh-autosuggestions
